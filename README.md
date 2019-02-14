@@ -5,6 +5,7 @@ Collaborative filtering is a technique that aims at learning user preferences an
 This algorithm was one of the building bricks of the Google News recommender system. 
 
 We first clarify the statistical foundations of the algorithm by expliciting the maths behind it, before implementing it in Spark on a small fraction of the database [MovieLens](https://grouplens.org/datasets/movielens/). We then scale the algorithm for running it on an AWS cluster.
+Finally we compare its performance to the Spark LDA (Latent Dirichlet Allocation) implementation.
 
 
 ## PLSI in a few words
@@ -32,3 +33,5 @@ At the end of the day we showed the convergence of our algorithm (by computing t
 And obtained a ROC curve (which is not as good as expected, but we computed it on a very limited fraction of MovieLens ... the version we ran on AWS was actually far more convincing).
 
 <img src = "Img/ROC.png" height="300">
+
+The detailed report is in [report.pdf](report.pdf).
