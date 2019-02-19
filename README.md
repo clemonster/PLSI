@@ -34,4 +34,4 @@ And obtained a ROC curve (which is not as good as expected, but we computed it o
 
 <img src = "Img/ROC.png" height="300">
 
-The detailed report is in [report.pdf](report.pdf).
+The detailed report is in [project_report.pdf](report.pdf).
